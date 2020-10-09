@@ -1,0 +1,50 @@
+﻿Prompt 1 - Communicating Process
+Hiring managers don’t just want to see what you built, they want to see the reasoning behind it. Here are some questions surveyed hiring managers said they would ask about a project:
+* "How did you decide what to build?"
+* "Why is this feature important?”
+* "Was this a good choice? What would you do differently if you had to do it over again?"
+We took these questions and cooked them into your labs experience. Please answer the following questions as you would in an interview. Remember, hiring managers care about the process and the why of building something even more than the what.
+Questions you need to answer
+1. Describe your process of breaking a release into user stories.
+As a group, I worked with both Web and DS team members to write up a few core user stories, demarcating them as either part of our Minimum Viable Product specifications[a], or belonging to stretch-goal territory, available as optional features for implementation should we find no trouble/delay in accomplishing MVP in a timely fashion.
+2. Choose a user story. Describe your reasoning as you broke down that particular user story into individual tasks.
+        For the user story “As a user, I can compare projections of the future metrics of cities.”, which is a stretch-goal and not a core feature, I took into account as many of the discrete tasks as would be necessary, including the planning of the feature, considering what makes prediction difficult or more feasible, in identifying the target features that we may be able to predict, as time-series predictions can be especially challenging. 
+After establishing the most plausible targets for prediction of our available features (or even considering new sources for data in order to get better results for prediction, such as very thorough sources with lots of historical data, like NOAA) the next logical step is to gather sufficiently detailed/historical data to maximize the potential for accuracy in our predictions. 
+Once these steps are out of the way, we can consider the problem in front of us, and research the ways that other data scientists have approached comparable modeling tasks, ensuring the DS team minimizes time spent on fruitless techniques. 
+Following this, we can finally begin to create and iterate on our modeling architecture, tracking the steps, motivation for choices of experimentation, and the results of those experiments, gradually tuning our structure and hyperparameters to maximize the accuracy/reliability of our predictions. 
+The next step, once our model and pipelines are fixed and ready for serving to the team/application, we can compress these steps and import them into our API endpoint, if they will be served that way, or even consider integrating the results as features of the city entries in the database that the Web team queries, for ease of service and minimizing of traffic flows. 
+The final step is to test, debug, and support the implementation of the predictions to the Web team, ensuring they can reliably access and serve the predictions to the user without error. [b]
+3. How long do you think the above user story will take to complete? Explain your reasoning.
+        The above user story may take as much as a full week, though that is a timeline that could be condensed with sufficient administration and delegation to ensure optimal productivity between DS team members in particular. 
+        The reasoning behind my estimate is the complexity of the task  - the stakeholder suggests serving predictions of what a city’s metrics may look like in the next five years, which is a notoriously difficult process, as forecasting of any kind is uniquely challenging, as an unlabeled modeling task with few (one) features on which to base the prediction, having only past trends on which to rely.[c]
+        This complexity is compounded by the number of metrics served, as each prediction is a completely separate problem with potentially different approaches for the best results, i.e. predicting housing markets is very different than predicting weather changes. 
+        Additionally, the reliability of predictions is potentially quite skewed, as our society is undergoing some extreme and drastic changes and shifts, as the world responds to a rather unprecedented global pandemic that is causing radical alterations to many fundamental metrics by which people evaluate the promise of a city or community as a candidate for a welcoming/optimal home. 
+
+
+Prompt 2 - Communicating Technical Decisions
+On the job, you’ll be making technical decisions every day. Hiring managers want to see how you make a choice and how you communicate your decisions. Here are some examples of questions they might ask about one of your projects in an interview:
+* "What kind of database did you choose and why?"
+* "Why did you use X to do Y?"
+These sorts of questions inform your entire Labs experience. You made a few technical decisions this week; we want to see how you would communicate them in an interview.
+Questions you need to answer
+1. Describe a technical decision you made. How did you make that decision?
+        It is reasonable and sufficient to source the base dataset from a single site that has already aggregated myriad city metrics at a grand scale. 
+        While I initially leaned toward sourcing data from canonical sources such as federal agencies that publish regular, thorough data, they each require a bit of investment in using their varying methods for data acquisition, which takes a lot of time and energy from our team.  I also was less familiar with effective, timely, and polite web-crawling for data.  
+        After exploring the legwork accomplished by a member of our team who had some experience in these matters, I dove in with a concerted effort and augmented their initial exploration into a sufficient, clean, and thorough baseline dataset within the week, and learned a great deal about such processes, which is a delightful bonus. Should it have proved frustrating or time-consuming, I would have abandoned the effort early on in that process, and ended up only spending about one day on the procedure in total.  
+2. What are some of the risks given the decision you made?
+        There was great risk that the exploration would not have been ultimately fruitful, and only have wasted the time and energy of our team at a crucial early phase, when many (MANY) other team members were banking on an early delivery of a prototype database from which to begin their own architecting.[d] It also may not have been something worth learning, or resulted in challenges from the site crawled.
+3. What challenges do you foresee in using the architecture your team selected?
+        I foresee some issues with formatting and cross origin resource sharing, and potentially with ensuring we are using/working with canonical unique ids in referencing the data. 
+
+
+Prompt 3 - Professional Development
+Power Statements
+This lesson we reinforced how to turn your responsibilities and tasks into power statements. To practice, write a few power statements you intend to use in your LinkedIn profile. Before writing those statements, ensure your LinkedIn has all the following content checked off.
+Add a link to your Linkedin in your sprint challenge submission document.
+
+
+🌠https://www.linkedin.com/in/cslsds/🌌
+[a]Please elaborate. What are the MVP sepcs?
+[b]Yes! Great job listing out the steps
+[c]Good job. You clearly explained your reasoning as to why it will take a week.
+[d]Good job. This is a time investment risk
