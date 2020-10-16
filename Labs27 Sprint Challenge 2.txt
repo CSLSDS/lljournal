@@ -1,0 +1,44 @@
+﻿Prompt 1 - Communicating Individual Contribution
+On the job, you will be responsible for shipping features regularly. Engineers are given tickets and are expected to deliver them. Hiring managers want to see that you are capable of delivering a feature.
+Here are some examples of hiring manager interview questions:
+* "Tell me about a project you’ve built."
+* "What were some technical challenges on that project? How did you overcome them?"
+We took these questions and cooked them into your labs experience. This week, you should have shipped at least one feature. Answer the following questions like you would in an interview:
+Questions you need to answer
+1. Describe what you built this week. Link any relevant pull requests or paste screenshots of code.
+        During this past week, I designed and deployed multiple iterations of an API constructed to serve metrics on a per-city basis to multiple teams of web specialists, with the intent of developing a side-by-side comparison tool to aid those facing the choice of what city is best for them as potential residents. This built upon earlier teamwork to gather such data, and experimented with a few architectures before settling on a simple per-city pipeline that draws the content of it’s return from an AWS-hosted PostgreSQL database. Consulted with 
+        The initial API deployment with a single endpoint to serve data by city_id directly from the source .csv:
+https://github.com/Lambda-School-Labs/Labs27-C-Citrics-DS/pull/5
+Refactored API endpoint that draws city entries from PosgreSQL database hosted through AWS RDS:
+https://github.com/Lambda-School-Labs/Labs27-C-Citrics-DS/pull/6
+        Fixed an overlooked mistaken omission that caused a degraded Elastic Beanstalk environment on attempted deployment of PostgreSQL PR (missing the requisite docker parameters of `docker_hub_id/image_name`; still had placeholders from original supplied template). Caught it early during deployment, after pouring through the extensive Elastic Beanstalk and Docker logs, and modified locally to resolve degraded environment, resulting in minimal downtime and ultimate successful deployment within the projected time frame. 
+2. How does what you built contribute to the overall product your team is building? What user problems does it help solve?
+        The PostgreSQL database architecture retains the gathered data in a relational structure, hosted in a persistent and managed fashion with thorough support technologies for maintenance and growth, and the API framework formats this data in an accessible way for the rest of the team, serving it in a consistent, stable manner that will allow the final product to draw from the full breadth of our data-gathering efforts, and should give users a seamless, simple interface with which to leverage these metrics in order to make the best decision when faced with the dilemma of what community they may choose to make their new residence. 
+3. Describe your delivery process for what you built this week from ideation to breakdown to implementation. What challenges occurred during the delivery process that you didn’t foresee?
+        Delivery began with assessing the stakeholder’s description and story of the origins of the product. Our team brainstormed in aggregate to paint a broad picture of what metrics may be useful and informative, and we further subdivided these into our minimum viable features (cost of living, weather, housing, income, and population/demographics) and more inspirational and pragmatic considerations for additional metrics (Covid-19 statistics, Medicaid expansion status of state, whether or not state requires income tax in addition to federal income tax) 
+
+
+        These prioritizations determined the course of our past week, continuing to seek to augment our core metrics with historical context, to provide opportunities for visualization of time-series information relevant to users (how extreme are temperatures in the summer and winter months compared between cities? What are the population trends of the city? How has income or industry grown over time?) Additionally, in consideration of the dependence of the front-end formatting of the metrics on the provision of these augmented datum, getting the database initialized with the core data and the pipeline to continue to develop the data in place became my key priority for this week .
+
+        After a few discussions on what to expect, ‘minimum viable product’ required a single endpoint that, when given a unique id for a city, returns all available metrics for that city. While other features have been discussed and considered, such as an endpoint that returns a single metric but measurements for all cities in the database, and a single endpoint that would serve the entire database at once, after consultation and further exploration, the latter is considered to be inappropriate for the project, and the former will be implemented, time permitting.
+
+
+        Challenges that arose were in the establishing of the function of the two databases involved, one serving the needs of the web team, and another to manage the data gathered and curated by the data science team. This largely occurred due to our mutual naivete of the expertise and needs of either team, and gradually became clearer as either team progressed down their paths of development. Eventually, we have individually come to greater understanding and appreciation of our skills and inclinations during this process, and seem to have come to a well-grasped conceptualization of the project and it’s future direction. 
+
+
+Prompt 2 - Communicating Teamwork
+As a software developer, you will almost always be on a team. As a result, engineering hiring managers want to see how you work on a team. As a junior developer, you will often pair with seniors on features. Here are some examples of interview questions you may get asked concerning teamwork:
+* "Tell me about a time you worked on a team. What was hard about it?"
+* "What is your greatest weakness as a team player? How have you improved?"
+This week we taught you how to pair with other team members. You should have worked with at least one other person to deliver a feature. Reflect on that experience and answer the following questions like you would in an interview:
+Questions you need to answer
+1. How did you work with another team member to deliver a feature this week? What role did you play?
+        Though there may not have been very close collaboration this week, I have made time to give a guided overview of the code/features I was responsible for contributing with the rest of my team over video-conference, consulted with them about what could be improved, assisted them in their blockers, pushed for building our git workflow skills, and consulted with the work done by other data science teams and peers who have gone before us doing similar work with similar technologies. I wouldn’t have been able to accomplish any of the work done this week without the contributions, active or passive, of dozens of students and professionals throughout the community. I am eager to play any role that allows for the mutual development and growth of all parties.   
+2. What did you learn this week from working in a team? How are you going to improve your teamwork in the future?
+        Communication is key, and it’s very easy to overlook the opportunities available with thorough, transparent communication and workflows, even if only passive access to the thoughts and questions arising for each team member. 
+
+        Ideally, these valuable opportunities will be much clearer and harder to miss from now on, and my enthusiasm for the gains to be made will outweigh any concerns about being a ‘squeaky wheel’ or nuisance with excessive transparent sharing of progress, thoughts, and questions as they arise in any projects in the future. 
+
+
+Prompt 3 - Professional Development Resume Updates
+🌠C Stump ➫ Oct 2020 Résumé🌌
