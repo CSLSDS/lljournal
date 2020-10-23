@@ -54,7 +54,7 @@ In the end, the backend for web found themselves able to tweak formatting as the
    ## The Big Payoff
    <img src="https://raw.githubusercontent.com/CSLSDS/lljournal/main/labsblog03.png" width="400"/>  
    
-  As our tenure on this project came to a close, we found ourselves with a generous database, with both current and historical context, robustly delivered to multiple web teams to serve to users as they saw fit.    
+  As our tenure on this project came to a close, we found ourselves with a generous database, with both current and historical context, consistently delivered to multiple web teams to serve to users as they saw fit.    
   **This means** we have enabled users to **search for and compare hundreds of major U.S. cities** by myriad attributes, ideally serving a broad swath of user-types, regardless of their individual priorities for what makes a city a desireable place to move and live.  
   
   Users can search for any city that had over 30k population as of the 2010 U.S. Census, as well as those that had a population above this threshold by the Census Bureau's estimates for 2019. 
