@@ -46,13 +46,13 @@
    - These nuances of difference made formatting and reformatting the data a bit tricky, and demanded some particular skills from our team: leveraging the vectorization made possible by the Pandas library, and encoding the results in a way that could be stored in a SQL database as well as served in a format that is legible and useful to the web team. 
 
    - We used vectorization and the `ast` python library (`ast.literal_eval()` in particular) to enable us to translate multiple datatypes to and from strings as needed, which enabled us to vectorize our operations to the entire dataset, and with the use of comprehensions, include caveats and conditions to those vectorized operations, e.g.  
-    
-	[<img src="https://raw.githubusercontent.com/CSLSDS/lljournal/main/labsblog02.png"width="600"/> ](https://colab.research.google.com/drive/1i-koHjYmu3Kd0AOQPL9KQTt2ZlBVZBoP#scrollTo=PeKMLjS5n6cR&line=1&uniqifier=1)  
+
+[<img src="https://raw.githubusercontent.com/CSLSDS/lljournal/main/labsblog02.png" width = "600" />](https://colab.research.google.com/drive/1i-koHjYmu3Kd0AOQPL9KQTt2ZlBVZBoP#scrollTo=PeKMLjS5n6cR&line=1&uniqifier=1)  
 
 In the end, the backend for web found themselves able to tweak formatting as they saw fit, and our struggle to understand their needs were not pivotal to the success of our project, but we found many useful workarounds and tricks to format and reformat as we found a need, and this brought us all to a more well-rounded position as developers.  
    
    ## The Big Payoff
-   <img src="https://raw.githubusercontent.com/CSLSDS/lljournal/main/labsblog03.png"width="400"/>  
+   <img src="https://raw.githubusercontent.com/CSLSDS/lljournal/main/labsblog03.png" width="400"/>  
    
   As our tenure on this project came to a close, we found ourselves with a generous database, with both current and historical context, robustly delivered to multiple web teams to serve to users as they saw fit.    
   **This means** we have enabled users to **search for and compare hundreds of major U.S. cities** by myriad attributes, ideally serving a broad swath of user-types, regardless of their individual priorities for what makes a city a desireable place to move and live.  
