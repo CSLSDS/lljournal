@@ -70,7 +70,7 @@ In the end, the backend for web found themselves able to tweak formatting as the
   - creating other endpoints and database tables as is sensible to make visualization and data service simpler and more efficient
   - adding unique and interesting features such as attractions, popular meetup groups, 'walkscores', political trends, and industry-specific information for professionals seeking ideal conditions for career development 
   - incorporating location-based NLP analysis on public data that brings unique insights about cities to our user base
-  - researching the implementation of `asyncio` and `asyncpg` for database interaction, as many sources cite it as being up to 3x faster than `psycopg2` (though the performance gains may not be worth the effort, it's a direction that would likely provide some great learning opportunities that may see relevance in our profesisonal lives down the road)   
+  - researching the implementation of `asyncio` and `asyncpg` for database interaction, as many sources cite it as being up to 3x faster than `psycopg2` (though the performance gains may not be worth the effort, it's a direction that would likely provide some great learning opportunities that may see relevance in our professional lives down the road)   
   
   I suspect that functionalizing regular updates to pipeline the latest statistics into the database would be the most technically challenging of these goals, as it will be a separate process for each feature for which it is developed, though the structure of the API should allow for a high degree of customization for implementing this, at least for some features.  
 
