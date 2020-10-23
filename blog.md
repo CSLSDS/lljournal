@@ -22,7 +22,7 @@
    
    <img src="https://raw.githubusercontent.com/CSLSDS/lljournal/main/labsblog01.png" width = "600" />  
    
-   ### Use of asynchronous organizational communication was absolutely KEY for our team process; 
+   ### Use of asynchronous organizational communication was absolutely VITAL for our team process; 
    ...with many data scientists on the hunt for sources, and two separate web teams, each comprised of folks with different specializations in the stack, we relied heavily on Trello, Slack, GitHub, and multiple Agile-style standups every day through Zoom, both with our respective teams, and as a larger group developing on Citrics.  
    
    ***This workflow enabled us to quickly iterate***, and gave us **tighter feedback loops** to see where we could improve our flows, or pinpoint issues as they came up, ***before*** they became major roadblocks for the project.  
