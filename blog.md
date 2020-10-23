@@ -75,5 +75,19 @@ In the end, the backend for web found themselves able to tweak formatting as the
   I suspect that functionalizing regular updates to pipeline the latest statistics into the database would be the most technically challenging of these goals, as it will be a separate process for each feature for which it is developed, though the structure of the API should allow for a high degree of customization for implementing this, at least for some features.  
 
 ## Lessons Learned
-  Some precious learning and development has come about due to the nature of this effort.  In particular, I cherish the deep appreciation I have built for team members, communication, and the technologies we utilize for asyncronous syncronization of our work that enabled us to build as far as we have.  
+  Some precious learning and development has come about due to the nature of this effort.  In particular, I cherish the deep appreciation I have built for team members, communication, and the technologies we utilize for asynchronous synchronization of our work that enabled us to build as far as we have.  
+  In particular, I did not begin this project with a very robust understanding of the risks involved when we work without sufficient communication, but I received feedback from team members that they were uncertain about what tasks were available for work, and which were already being worked on by members of our team.  
+  This kind of inefficiency is not only wasteful of the precious time we had available to invest labor into the project, but it had the potential to damage morale and our team dynamics, which could easily throw the whole project off-course.  
+  
+  I was humbled to be in a circumstance where communication was, perhaps, the most crucial aspect for our success, and have come out of this effort with a profound humility about the work that I do both in a team setting as well as solo; while much of what we do on a day-to-day basis seems centered around code and it's implementation, our "human-readable" documentation is truly what makes that code relevant and valuable.  Without sufficient (and even over-explicit or redundant) communication, code may go unused and unrun for the remainder of it's life, and is very unlikely to be a useful reference beyond the length of time it remains in our short- and even longer-term memory banks.   
+
+  With sufficient attention to documenting our thought process, planning, and work along the way as we develop, we can be sure our efforts will remain viable and useful as reference points from which to build and grow into better developers, and better team members.  
+  
+### Where do I go from here?
+
+This project has given me such a sense of empowerment, and the database that was built is genuinely USEFUL!  
+Even moreso, I found a number of great directions to take my study into future projects I plan to develop, especially learning more about event-driven builds and asynchronous actions, as well as digging more into test-driven development, which I've had a growing curiosity about since my time studying Computer Science. 
+
+I hope to continue to develop into a more and more well-rounded asset, so that I will have the greatest possible chance to meaningfully participate in projects and with teams that matter to me most.  
+
 
