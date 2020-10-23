@@ -8,7 +8,7 @@
    
    This would be no simple feat; while the concept is straightforward, sourcing consistent and clean data for what was to be a list of _**well over 1,000 cities**_ on a variety of inter- and unrelated metrics would require cooperation and diligence on the part of every member of our data science team, and delivering these in usable format promptly enough to our web teams that they would have sufficient time to build around that data would take all of us working in concert (and no small amount of good luck).  
    
-   The first step to tackle to begin to give our roadmap to achievement it's shape and structure was **to break down the vision of the end product into discrete, manageable tasks.  **
+   The first step to tackle to begin to give our roadmap to achievement it's shape and structure was **to break down the vision of the end product into discrete, manageable tasks.**
    
    ## Trello to the rescue!
    
