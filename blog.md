@@ -85,9 +85,10 @@ In the end, the backend for web found themselves able to tweak formatting as the
   
 ### Where do I go from here?
 
-This project has given me such a sense of empowerment, and the database that was built is genuinely USEFUL!  
+This project has given me such a sense of empowerment, and the database that was built is genuinely USEFUL! It can be leveraged in a number of ways that are not limited to the scope of the Citrics project, and I look forward to referencing it in future work.  
+
 Even moreso, I found a number of great directions to take my study into future projects I plan to develop, especially learning more about event-driven builds and asynchronous actions, as well as digging more into test-driven development, which I've had a growing curiosity about since my time studying Computer Science. 
 
-I hope to continue to develop into a more and more well-rounded asset, so that I will have the greatest possible chance to meaningfully participate in projects and with teams that matter to me most.  
+I eagerly look forward to the process of developing into a more and more well-rounded asset, so that I will have the greatest possible chance to meaningfully participate in projects and with teams that matter to me most.  
 
 
