@@ -1,0 +1,33 @@
+﻿Prompt 1 - Giving Feedback
+Questions you need to answer
+1. What’s an example of an issue you’ve had in working with another team member? How have you addressed it?
+I came to realize, after the fact, that I had not been effectively documenting my work and progress to my teammates, and so I received feedback that helped me to appreciate the difficulty of effective teamwork without thorough, consistent documentation/communication. 
+[a]        While it is still not my strong-suit, I have gained a newfound reverence for transparency in work when working together, and even solo: when each step is discretely documented as it’s conceptualized, undertaken, and completed (or it’s delays made plain), it makes the whole effort much more robust to the inevitable buffers of time, distraction, emergency, error/bug/troubles to shoot, etc. 
+        It also brought me into the experience of the peers I am working with in a way that really helped me to connect and invest in our working relationship in new ways, strengthening our ability to work in team environments in the future. It’s been one of my most cherished lessons at Lambda.
+I often document my process in a variety of ways for my own reference, so it is a small step to become more thorough and transparent with the same vigilance. Explicit is better than implicit, as I’ve been told.
+
+
+2. What are some benefits and challenges to working with the different personalities and work styles on your team? Please provide an example.
+                I’m sure my lack of transparency or forethought has been a challenge to my teammates, and I know it has caused some confusion, or lack of direction/guidance, and likely even some not-insignificant amount of frustration (though my teammates have been gracious enough not to complain of this explicitly) in the process of developing together. 
+        I remember my appreciation of my teammates growing as our work styles became more evident, and we began sharing more and more code, and more reviews of one another’s code through github workflows. I can see the ways I often take my own approach for granted, and was humbled to learn about the ways that others approach shared tasks and goals when placed together to tackle a project in a limited scope such as Labs. It’s been encouraging to learn together what makes effective feedback, both receiving and giving, and very importantly of course, what is not effective. 
+        I find a wealth of benefits in not only working with patient, sociable folks that tolerate my shortcomings in communication/teamwork, but in encounters with different styles and personalities foreign to my own especially; it is often only through exchanges such as these that we are able to broaden our understanding and expectations beyond what we are comfortable and familiar with, which makes us all more stable and sustainable agents in any undertakings we become involved with afterward. It is truly a rich opportunity at every turn when one keeps in mind the fruits available through open collaboration, especially with those who differ from ourselves.
+ 
+Prompt 2 - Receiving Feedback
+Questions you need to answer
+1. How do your teammates tend to describe you?
+I only received two written evaluations, but inclusive of what I’ve received directly through web students as well, it’s been largely flattering and usually references my scope of perspective or diligence/persistence. I also have gotten some guidance on how to better frame or focus to ensure the scope is not overwhelming in communication or conceptualization together. 
+
+
+2. What’s the most difficult piece of feedback you’ve ever received?
+I have developed a tendency not to ‘pry’ with others interpersonally, and I have heard from closer friends that this gives them the impression that I don’t care about them and am uninterested in their experience. 
+        I found this to be an emotionally difficult discovery, as I prize my opportunities with others as uniquely precious, in particular due to the inherent value I place on others and their experience, and was dismayed to find that my habituation to what I had seen as respecting the privacy of others was having an inverted impact, actually alienating those I valued and giving them the impression that I did not appreciate them. 
+
+
+3. How have you incorporated that feedback into your personal development?
+        While I had given the impression that I did not care, luckily that is not the case, and so it is a short step, technically, to resolving the issue. Unfortunately, it is a little difficult to change my natural tendencies entirely, but I have found a lot of ways that come more naturally to me than to “pry” in any assertive way with lots of interrogation, but more gently acknowledging that which I do come to know about people and their experience, as well as naturally finding ways to invite and solicit further input when someone takes the opportunity to share with me. 
+Fortunately, while the initial impact was strong because I had been largely ignorant of this dynamic, I was indescribably grateful to have gotten that feedback rather than continuing on with no knowledge of it, and it has been crucial in my struggle to mitigate the inherent differences I experience as a person with Asperger’s, and to provide me greater agency in my efforts to honor the people I encounter across the board.
+
+
+Prompt 3 - Professional Development GitHub Profile
+🌠C Stump ➫ github/profile🌌
+[a]Good job acknowledging on how you can improve as a team member and how you are going to move forward to improve.
